@@ -1,0 +1,14 @@
+{
+    "bienvenida|Bienvenido/a": {
+        "text": "Hola, esto es una pruebasdfsfuishfiushdifh",
+        "images": [
+            "Media/People-Hub/subidas/e9b7331bee40fc42.jpg"
+        ],
+        "links": [
+            {
+                "label": "Fotos aqui",
+                "url": "https://us14.admin.mailchimp.com/"
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+HUB CORPORATIVO UG21 · Estructura de carpetas
+
+Páginas (todas en la raíz)
+  index.html ................ Inicio del Hub Corporativo (accesos, calendario y avisos, destacados)
+  people-hub.html ........... Portada del People Hub
+  bienvenida.html, rsc.html, cultura.html, efr.html, beneficios.html,
+  politicas.html, buddy.html, mapa.html ... Secciones del People Hub
+
+CSS/
+  hub.css ................... Estilos del Hub Corporativo (Inicio)
+  plan.css .................. Estilos del People Hub
+  admin.css ................. Estilos del editor del People Hub
+
+JavaScript/
+  hub.js .................... Funcionamiento del Hub Corporativo
+  hub-data.js ............... Contenido editable del Hub Corporativo (accesos, festivos, comunicados, avisos)
+  plan.js ................... Funcionamiento del People Hub
+  admin.js .................. Editor del People Hub
+
+Media/
+  Comun/ .................... Logos y símbolo de UG21 (todas las páginas)
+  Hub-Corporativo/ .......... Foto de cabecera, póster y vídeo (Video.mp4) de «Queremos escucharte»
+  People-Hub/ ............... Fotos del People Hub
+    subidas/ ................ Imágenes subidas desde el editor (necesita permiso de escritura)
+  Recursos/ ................. Logos e imágenes de marca que la web no usa actualmente
+
+PHP/
+  api.php, config.php ....... Editor del People Hub (requiere servidor con PHP)
+  content.json .............. Contenido guardado desde el editor (necesita permiso de escritura)
+  data/ ..................... Registro de intentos de acceso (necesita permiso de escritura)
+
+Al publicar: subir la carpeta completa. «Exportar para servidor» en Inicio
+genera hub-data.js, que debe sustituirse en JavaScript/.
